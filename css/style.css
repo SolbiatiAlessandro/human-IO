@@ -1,0 +1,33 @@
+
+body{
+  margin: 0px 0px 0px 0px;
+  background-color: #F2F2F2;
+  font-size: 22px;
+}
+
+.top-bar{
+  background-color: #0E6FE1;
+  display:block;
+  color: #FFFFFF;
+  width: 100%;
+  margin-top: 0;
+  height: 100px;
+  font-size: 40px;
+}
+
+#profile{
+  float:left;
+  width:auto;
+  margin-left:5%;
+}
+
+#chat{
+  float:right;
+  width:auto;
+  margin-right:5%;
+}
+
+#vault{
+  margin: auto;
+  width:100px;
+}
