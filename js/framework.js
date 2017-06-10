@@ -40,15 +40,8 @@ var db = {
 	}
 }
 
-var task_A = new task("A",1,0);
-console.log("New task added: task A, Gold per Hit= 1, Level needed= 0")
-var task_B = new task("B",2,3);
-console.log("New task added: task B, Gold per Hit= 2, Level needed= 5")
-var task_C = new task("C",3,8);
-console.log("New task added: task C, Gold per Hit= 3, Level needed= 20")
-var task_D = new task("D",4,19);
-console.log("New task added: task D, Gold per Hit= 4, Level needed= 40")
-db.tasks.push(task_A);
-db.tasks.push(task_B);
-db.tasks.push(task_C);
-db.tasks.push(task_D);
+//Task definition
+
+
+
+
