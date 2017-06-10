@@ -1,31 +1,36 @@
 <head>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
   <meta charset="utf-8">
+  <script src="js/framework.js"></script>
+  <script type="text/javascript">
+
+//database population, changing the task info changes automatically html contents
+var task_A = new task("A",1,0);
+var task_B = new task("B",2,3);
+var task_C = new task("C",3,8);
+var task_D = new task("D",4,19);
+db.tasks.push(task_A);
+db.tasks.push(task_B);
+db.tasks.push(task_C);
+db.tasks.push(task_D);
+
+  </script>
+  <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
 <div class="top-bar">
     <div id="profile">
-      <a>profile</a></div>
+      <a>profile</a>
+      <p id="profile_val"></p>
+      </div>
     <div id="chat">
       <a>chat</a></div>
     <div id="vault">
-      <a>vault</a></div>
+      <a>vault</a>
+      <p id="vault_val"></p>
+      </div>
 </div>
 <h2>Job Dashboard</h2>
-<div class="job">
-  <h3>TaoBao Customer Service</h3>
-  <p>0,1元 / Happy Customer</p>
-</div>
-<div class="job">
-  <h3>TaoBao Customer Service</h3>
-  <p>0,1元 / Happy Customer</p>
-</div>
-<div class="job">
-  <h3>TaoBao Customer Service</h3>
-  <p>0,1元 / Happy Customer</p>
-</div>
-<div class="job">
-  <h3>TaoBao Customer Service</h3>
-  <p>0,1元 / Happy Customer</p>
-</div>
+<div id="dashboard"></div>
+
 </body>
