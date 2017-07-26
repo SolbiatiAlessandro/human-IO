@@ -1,4 +1,7 @@
 # human-IO
-this is my first commit on the proj
 
-Alex agrees :)
+an Artificial-Intelligence data collection project.
+
+UDPATE: the proj is live -> www.humanio.xyz
+
+Alex and Ferruccio
